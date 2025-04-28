@@ -4,7 +4,7 @@ import CardWrapper from '../../ui/dashboard/cards';
 import RevenueChart from '../../ui/dashboard/revenue-chart';
 import LatestInvoices from '../../ui/dashboard/latest-invoices';
 import { Suspense } from 'react';
-import { CardsSkeleton, RevenueChartSkeleton } from '@/app/ui/skeletons';
+import { RevenueChartSkeleton } from '@/app/ui/skeletons';
 import { LatestInvoicesSkeleton } from '@/app/ui/skeletons';
 import { CardSkeleton } from '@/app/ui/skeletons';
 import { Metadata } from 'next';
